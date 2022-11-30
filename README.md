@@ -19,6 +19,7 @@ To provide the list of schools and its details in Montserrado County, and grade 
     - Version 0.5 of your application.
        - A mockup of your web app
        - landing page of the web app
+       - Testing
 
 ### Meet The Team
 Joseph S.K. Pambu, Jr. [@wimade](https://www.github.com/wimade)
