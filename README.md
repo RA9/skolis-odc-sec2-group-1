@@ -23,4 +23,4 @@ To provide the list of schools and its details in Montserrado County, and grade 
 
 ### Meet The Team
 Joseph S.K. Pambu, Jr. [@wimade](https://www.github.com/wimade)
-
+Hannah Kettor [@wimade](https://www.github.com/HannahKettor)
