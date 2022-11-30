@@ -5,7 +5,7 @@ To get a list of all the public and private schools in Montserrado County.
 Difficulties in finding schools in Montserrado and grade school syllabi
 
 ## The Solution
-To provide the list of schools in Montserrado County and grade school syllabi
+To provide the list of schools and its details in Montserrado County, and grade school syllabi
 
 ### The Tech Stack
 - Reactjs - For the UI
