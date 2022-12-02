@@ -1,6 +1,10 @@
-import React from "react";
+
+
 
 export default function Navbar() {
+
+  
+
   return (
     <div id="navbar">
       <nav class="bg-gray-800">
@@ -49,7 +53,8 @@ export default function Navbar() {
           <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Privacy</a>
         </div>
         <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
-          <a href="#" class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20">Log in</a>
+
+          <a  href="/Login"  class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20">Log in</a>
         </div>
       </nav>
       {/* <!-- Mobile menu, show/hide based on menu open state. --> */}
