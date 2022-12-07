@@ -1,9 +1,11 @@
 import React from "react";
+import Navbar from "./Navbar";
 
-export default function Login(){
+export default function Login() {
 
     return(
         <>
+        <Navbar />
         <section class="h-screen">
   <div class="px-6 h-full text-gray-800">
     <div
