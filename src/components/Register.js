@@ -1,8 +1,11 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 export default function Register() {
     return (
+      
         <>
+        
            <div class="block p-6 rounded-lg shadow-lg bg-white max-w-md">
   <form>
     <div class="grid grid-cols-2 gap-4">

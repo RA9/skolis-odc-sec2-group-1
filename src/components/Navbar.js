@@ -41,9 +41,10 @@ export default function Navbar() {
 
           <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Syllabus</a>
 
-          <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Register a School</a>
+          <Link to="/register"
+          class="font-semibold text-gray-900 hover:text-gray-900">Register a School</Link>
 
-          <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Contact Us</a>
+          <Link to="/contact" class="font-semibold text-gray-900 hover:text-gray-900">Contact Us</Link>
 
           <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">About Us</a>
         </div>
