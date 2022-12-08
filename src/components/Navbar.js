@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
     return (
         <>
@@ -39,9 +41,10 @@ export default function Navbar() {
 
           <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Syllabus</a>
 
-          <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Register a School</a>
+          <Link to="/register"
+          class="font-semibold text-gray-900 hover:text-gray-900">Register a School</Link>
 
-          <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Contact Us</a>
+          <Link to="/contact" class="font-semibold text-gray-900 hover:text-gray-900">Contact Us</Link>
 
           <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">About Us</a>
         </div>
@@ -81,7 +84,10 @@ export default function Navbar() {
                 <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Company</a>
               </div>
               <div class="py-6">
-                <a href="#" class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10">Log in</a>
+                <Link to="/login"
+                class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10">
+                  
+                  Log in</Link>
               </div>
             </div>
           </div>
