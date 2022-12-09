@@ -1,9 +1,10 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 export default function Contact() {
     return (
         <>
-        
+        <Navbar />
             <section class="bg-white px-20 py-20 lg:py-[120px] overflow-hidden relative z-10">
                 <div class="container">
                     <div class="flex flex-wrap lg:justify-between -mx-4">
